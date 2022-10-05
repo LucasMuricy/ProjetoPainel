@@ -1,0 +1,5 @@
+//Criando a classe (Carro CIvic)
+	
+public class Civic  extends Carro{
+
+}

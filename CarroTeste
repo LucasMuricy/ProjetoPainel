@@ -1,0 +1,46 @@
+public class CarroTeste {
+
+	public static void main(String[] args) {
+		
+		//Aqui estou colocando o "Carro pra andar" Simulando um Painel de velocidade com suas Funções
+		Carro c1 = new Civic();
+		
+	    // aqui estou usando a função acelerar da Classe Carro
+		c1.acelerar();          
+		System.out.println(c1);
+		
+		c1.acelerar();
+		System.out.println(c1);
+		c1.acelerar();
+		
+		System.out.println(c1);
+		c1.acelerar();
+		
+        c1.frear();
+		System.out.println(c1);
+		c1.acelerar();
+		
+		System.out.println();
+        // Aqui chamei a função ferrari( Logo eu passei uma velocidade diferente )
+		Ferrari c2 = new Ferrari(); 
+	    c2.ligarTurbo();   //Chamei a função (ligarTurbo) logo essa função so pode ser chamada pela Ferrari
+		
+		c2.acelerar();
+		System.out.println(c2);
+		
+		c2.frear();
+		System.out.println(c2);
+		
+		c2.desligarTurbo();  // aqui eu Chamo a função desligar Turbo 
+		c2.acelerar();
+		System.out.println(c2);
+		
+		c2.acelerar();
+		System.out.println(c2);
+		
+	}
+	
+}
+		
+		
+		

@@ -1,0 +1,32 @@
+public class Ferrari extends Carro implements Esportivo {
+	
+	@Override
+	void acelerar() {
+		velocidadeAtual += 15;
+		
+	}
+
+	@Override
+	void frear() {
+		if(velocidadeAtual >= 15) {
+			velocidadeAtual -= 15;
+		} else {
+			velocidadeAtual = 0;
+		}
+	}
+		
+	@Override
+	public void ligarTurbo() { //aqui o carro ganha uma velocidade adicional de 35.
+		velocidadeAtual = 35;
+		
+	}
+	
+	@Override
+	public void desligarTurbo() {
+		velocidadeAtual -=35 ;
+		
+	}
+			
+			
+
+}

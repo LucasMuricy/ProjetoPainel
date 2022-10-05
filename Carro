@@ -1,0 +1,31 @@
+int velocidadeAtual;
+	//Criando a Função do Carro 
+	void acelerar() {
+		velocidadeAtual +=5;
+	}
+
+	void frear() {         
+		if(velocidadeAtual >= 5) {      //Passei uma função cas o carro esteja parado e o condutor aperte o freio
+			velocidadeAtual -= 5;       // o painel não vai mudar de velocidade. 
+		} else {
+			velocidadeAtual = 0;
+		}
+	}
+		
+	public String toString() {
+		return "Velocidade atual é " + velocidadeAtual + "Km/h";
+	}
+		
+}
+			
+	
+        
+		
+	
+
+	
+		
+
+	
+	
+
